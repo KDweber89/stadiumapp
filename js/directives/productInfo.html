@@ -1,0 +1,7 @@
+<img ng-src="{{ product.cover }}"> 
+<p class="title">{{ product.name }}</p> 
+<p class="date">{{ product.opened }}</p> 
+<p class="price">{{ product.team }}</p> 
+<p class="date">{{ product.capacity | number }}</p> 
+<p class="likes" ng-click="plusOne($index)">+ {{ product.likes }} </p>
+<p class="dislikes" ng-click="minusOne($index)">-{{ product.dislikes }} </p>
